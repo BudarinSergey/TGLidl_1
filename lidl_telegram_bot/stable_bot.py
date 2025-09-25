@@ -7,8 +7,8 @@ import logging
 import asyncio
 from datetime import datetime
 
-from config import BOT_TOKEN, CHANNEL_ID, NOTIFICATION_TIMES
-from fixed_parser import FixedLidlParser
+from config import BOT_TOKEN, CHANNEL_ID
+from lidl_telegram_bot.fixed_parser import FixedLidlParser
 from database import Database
 
 # Минимальное логирование
